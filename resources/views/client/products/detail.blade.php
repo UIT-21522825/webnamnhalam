@@ -4,7 +4,7 @@
     <!-- Page Header Start -->
     <div class="row" style="margin-left: 50px">
         <div class="d-inline-flex">
-            <p class="m-0"><a href="">Home</a></p>
+            <p class="m-0"><a href="{{ route('client.home') }}">Trang chủ</a></p>
             <p class="m-0 px-2">/</p>
             <p class="m-0">Chi tiết sản phẩm</p>
         </div>

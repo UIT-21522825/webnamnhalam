@@ -118,4 +118,5 @@ class ProductController extends Controller
         $this->product->deleteImage($imageName);
         return redirect()->route('products.index')->with(['message' => 'Xóa thành công']);
     }
+
 }
